@@ -1,14 +1,16 @@
-public class Cliente implements Exibir {
+public class Cliente implements Exibivel {
+    private static int contadorId = 0;
+
     private String nome;
     private String email;
     private String cpf;
     private int id;
 
-    public Cliente(String nome, String email, String cpf, int id) {
+    public Cliente(String nome, String email, String cpf) {
+        this.id = ++contadorId;
         this.nome = nome;
         this.email = email;
         this.cpf = cpf;
-        this.id = id;
     }
 
     public String getNome() {
@@ -37,10 +39,6 @@ public class Cliente implements Exibir {
 
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     @Override
