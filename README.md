@@ -4,12 +4,15 @@
 
 ## 👥 Integrantes do Grupo
 
-| # | Nome |
-|---|------|
-| 1 | **Luis Felipe Nepomuceno de Moraes** |
-| 2 | **João Paulo dos Santos Moreira** |
-| 3 | **Leonardo Silva Lima** |
-| 4 | **Eric Souza dos Santos** |
+<table>
+  <tr><th>#</th><th>Nome</th></tr>
+  <tr><td>1</td><td><b>Luis Felipe Nepomuceno de Moraes</b></td></tr>
+  <tr><td>2</td><td><b>João Paulo dos Santos Moreira</b></td></tr>
+  <tr><td>3</td><td><b>Leonardo Silva Lima</b></td></tr>
+  <tr><td>4</td><td><b>Eric Souza dos Santos</b></td></tr>
+</table>
+
+<br>
 
 **Curso:** Análise e Desenvolvimento de Sistemas — Senac-SP  
 **Disciplina:** Programação Orientada a Objetos  
