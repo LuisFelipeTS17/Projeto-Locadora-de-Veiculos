@@ -1,9 +1,28 @@
-# 🚗 Vehicle Rental System
+# 🚗 Locadora de Veículos
 
-> A Java console application that simulates a vehicle rental workflow, architected around clean OOP principles — abstract classes, polymorphism, interfaces, encapsulation, and inheritance working together as they should.
+<div align="center">
+
+## 👥 Integrantes do Grupo
+
+| # | Nome |
+|---|------|
+| 1 | **Luis Felipe Nepomuceno de Moraes** |
+| 2 | **João Paulo dos Santos Moreira** |
+| 3 | **Leonardo Silva Lima** |
+| 4 | **Eric Souza dos Santos** |
+
+**Curso:** Análise e Desenvolvimento de Sistemas — Senac-SP  
+**Disciplina:** Programação Orientada a Objetos  
+**Entrega:** 14 de junho de 2026
+
+</div>
+
+---
+
+> Aplicação console em Java que simula o fluxo de uma locadora de veículos, estruturada com os pilares da POO: classes abstratas, polimorfismo, interfaces, encapsulamento e herança.
 
 [![Java](https://img.shields.io/badge/Java-17%2B-orange?style=flat-square&logo=openjdk)](https://www.oracle.com/java/)
-[![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square)]()
+[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=flat-square)]()
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 [![Course](https://img.shields.io/badge/ADS-Senac--SP-green?style=flat-square)]()
 
