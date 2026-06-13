@@ -103,9 +103,9 @@ public class Menu {
         while (!voltar) {
 
             System.out.println("\n=== SAC ===");
-            System.out.println("1 - Registrar reclamação");
-            System.out.println("2 - Registrar sugestão");
-            System.out.println("3 - Registrar dúvida");
+            System.out.println("1 - Reclamação");
+            System.out.println("2 - Sugestão");
+            System.out.println("3 - Dúvida");
             System.out.println("4 - Listar chamados");
             System.out.println("0 - Voltar");
             System.out.print("Escolha: ");
@@ -142,25 +142,18 @@ public class Menu {
     }
 
     private boolean conferirDocumentos(String nome, String cpf, String cnh) {
-
-        return nome != null
-                && !nome.trim().isEmpty()
-                && cpf != null
-                && cpf.replaceAll("\\D", "").length() == 11
-                && cnh != null
-                && !cnh.trim().isEmpty();
+        return nome != null && !nome.trim().isEmpty()
+                && cpf != null && cpf.replaceAll("\\D", "").length() == 11
+                && cnh != null && !cnh.trim().isEmpty();
     }
 
     private int lerInteiro() {
-
         while (!scanner.hasNextInt()) {
             scanner.next();
             System.out.print("Digite um número válido: ");
         }
-
         int valor = scanner.nextInt();
         scanner.nextLine();
-
         return valor;
     }
 }
