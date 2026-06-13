@@ -1,9 +1,31 @@
-# 🚗 Vehicle Rental System
+<div align="center">
 
-> A Java console application that simulates a vehicle rental workflow, architected around clean OOP principles — abstract classes, polymorphism, interfaces, encapsulation, and inheritance working together as they should.
+# 🚗 Locadora de Veículos
+
+## 👥 Integrantes do Grupo
+
+<table>
+  <tr><th>#</th><th>Nome</th></tr>
+  <tr><td>1</td><td><b>Luis Felipe Nepomuceno de Moraes</b></td></tr>
+  <tr><td>2</td><td><b>João Paulo dos Santos Moreira</b></td></tr>
+  <tr><td>3</td><td><b>Leonardo Silva Lima</b></td></tr>
+  <tr><td>4</td><td><b>Eric Souza dos Santos</b></td></tr>
+</table>
+
+<br>
+
+**Curso:** Análise e Desenvolvimento de Sistemas — Senac-SP  
+**Disciplina:** Programação Orientada a Objetos  
+**Entrega:** 14 de junho de 2026
+
+</div>
+
+---
+
+> Aplicação console em Java que simula o fluxo de uma locadora de veículos, estruturada com os pilares da POO: classes abstratas, polimorfismo, interfaces, encapsulamento e herança.
 
 [![Java](https://img.shields.io/badge/Java-17%2B-orange?style=flat-square&logo=openjdk)](https://www.oracle.com/java/)
-[![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square)]()
+[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=flat-square)]()
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 [![Course](https://img.shields.io/badge/ADS-Senac--SP-green?style=flat-square)]()
 
@@ -282,13 +304,10 @@ Rental confirmed. See you at the agency!
 
 ## Team
 
-| Role | Scope |
-|---|---|
-| **Arquiteto / Integrador** | `Veiculo` (abstract class) · `Exibivel` (interface) · codebase integration · Git |
-| **Dev Carro** | `Carro` — attributes, `calcularValorAluguel()`, `exibir()` override |
-| **Dev Moto** | `Moto` — `calcularValorAluguel()` |
-| **Dev Cliente + Validação** | `Cliente` — attributes, `exibir()` · document and license verification logic |
-| **Dev Fluxo / Main** | `while` menu loop · rental workflow · `Main.java` |
+- Luis Felipe Nepomuceno de Moraes
+- João Paulo dos Santos Moreira
+- Leonardo Silva Lima
+- Eric Souza dos Santos
 
 ---
 

@@ -6,12 +6,14 @@ public class Locadora {
     private String endereco;
     private int numero;
     private List<Veiculo> frota;
+    private List<Cliente> clientes;
 
     public Locadora(String nome, String endereco, int numero) {
         this.nome = nome;
         this.endereco = endereco;
         this.numero = numero;
         this.frota = new ArrayList<>();
+        this.clientes = new ArrayList<>();
         inicializarFrota();
     }
 
@@ -30,6 +32,28 @@ public class Locadora {
             }
         }
         return disponiveis;
+    }
+
+    public void cadastrarCliente(Cliente cliente) {
+        clientes.add(cliente);
+    }
+
+    public Cliente buscarClientePorCpf(String cpf) {
+        String cpfLimpo = cpf.replaceAll("\\D", "");
+        for (Cliente c : clientes) {
+            if (c.getCpf().replaceAll("\\D", "").equals(cpfLimpo)) {
+                return c;
+            }
+        }
+        return null;
+    }
+
+    public List<Cliente> getClientes() {
+        return clientes;
+    }
+
+    public List<Veiculo> getFrota() {
+        return frota;
     }
 
     public double realizarAluguel(Veiculo veiculo, Cliente cliente) {
